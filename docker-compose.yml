@@ -1,6 +1,7 @@
 services:
   weaviate:
-    image: semitechnologies/weaviate:latest
+    # Pin to a stable version (avoid :latest pulling RC/nightly builds)
+    image: semitechnologies/weaviate:1.25.0
     container_name: weaviate
     restart: unless-stopped
 
@@ -14,6 +15,10 @@ services:
       - "127.0.0.1:50051:50051"
 
     environment:
+      # Force single-node behavior (prevents "leader not found" / raft issues)
+      CLUSTER_HOSTNAME: "node1"
+      RAFT_ENABLED: "false"
+
       PERSISTENCE_DATA_PATH: "/var/lib/weaviate"
       QUERY_DEFAULTS_LIMIT: "25"
 
@@ -34,3 +39,4 @@ services:
 
 volumes:
   weaviate_data:
+
