@@ -49,5 +49,5 @@ Once Docker is installed and running, open a terminal and run:
 ```bash
 docker --version
 docker compose version
-
+```
 Next: [Create the Project Folder](03-project-setup.md)
