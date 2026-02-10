@@ -16,9 +16,53 @@ If you do not already have a terminal open, open one now.
 
 ## Choose where to store the project
 
-Decide where you want to keep this project on your computer. A common choice is your home directory.
+Before cloning the repository, you need to decide **where on your computer** the project folder should live.
 
-If you are unsure, you can continue without changing directories.
+If you are not sure where to put it, your **home directory** is a safe default.
+
+When you open a terminal, you usually start in your home directory automatically.
+
+You can confirm this by running:
+
+```bash
+pwd
+```
+
+If the output looks something like:
+
+```
+/Users/your-username
+```
+
+or
+
+```
+/home/your-username
+```
+
+then you are already in your home directory and do not need to change anything.
+
+---
+
+### Optional: create a projects folder (recommended but not required)
+
+If you want to keep your projects organized, you can create a folder named `projects` and work inside it.
+
+Run:
+
+```bash
+mkdir -p ~/projects
+cd ~/projects
+```
+
+After running these commands, your project will be stored inside the `projects` folder.
+
+If you skip this step, the project will be created directly in your home directory, which is also fine.
+
+---
+
+Once you are in the directory where you want the project to live, continue to the next step.
+
 
 ---
 
