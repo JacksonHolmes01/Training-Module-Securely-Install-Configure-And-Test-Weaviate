@@ -196,7 +196,6 @@ Always clone the repository before running Docker commands.
 
 From this point forward:
 - You should run all tutorial commands **inside this folder**
-- The `docker-compose.yml` file will be placed here in the next step
 
 If you close your terminal later, make sure to return to this folder before continuing.
 
