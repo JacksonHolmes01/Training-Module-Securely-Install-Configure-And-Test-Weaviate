@@ -63,7 +63,6 @@ If you skip this step, the project will be created directly in your home directo
 
 Once you are in the directory where you want the project to live, continue to the next step.
 
-
 ---
 
 ## Clone the repository (important note)
@@ -86,7 +85,7 @@ If you copy the command exactly as written with `YOUR_USERNAME`, cloning will fa
 It will look similar to this:
 
 ```
-https://github.com/actual-username/weaviate-secure-lab.git
+https://github.com/actual-username/Training-Module-Securely-Install-Configure-And-Test-Weviate.git
 ```
 
 ---
@@ -96,10 +95,10 @@ https://github.com/actual-username/weaviate-secure-lab.git
 Replace `actual-username` with the real username and run:
 
 ```bash
-git clone https://github.com/actual-username/weaviate-secure-lab.git
+git clone https://github.com/actual-username/Training-Module-Securely-Install-Configure-And-Test-Weviate.git
 ```
 
-This command downloads the repository and creates a folder named `weaviate-secure-lab` on your computer.
+This command downloads the repository and creates a folder named `Training-Module-Securely-Install-Configure-And-Test-Weviate` on your computer.
 
 ---
 
@@ -108,10 +107,10 @@ This command downloads the repository and creates a folder named `weaviate-secur
 If the clone is successful, you will see output similar to:
 
 ```
-Cloning into 'weaviate-secure-lab'...
+Cloning into 'Training-Module-Securely-Install-Configure-And-Test-Weviate'...
 ```
 
-and a new folder named `weaviate-secure-lab` will appear in your current directory.
+and a new folder named `Training-Module-Securely-Install-Configure-And-Test-Weviate` will appear in your current directory.
 
 ---
 
@@ -146,20 +145,21 @@ The easiest way to authenticate is using the GitHub CLI.
    ```
 3. Clone the repository:
    ```bash
-   gh repo clone actual-username/weaviate-secure-lab
+   gh repo clone actual-username/Training-Module-Securely-Install-Configure-And-Test-Weviate
    ```
 
 ---
 
-If cloning succeeds and the `weaviate-secure-lab` folder exists, you can continue to the next step.
+If cloning succeeds and the `Training-Module-Securely-Install-Configure-And-Test-Weviate` folder exists, you can continue to the next step.
 
+---
 
 ## Move into the project folder
 
 Now run:
 
 ```bash
-cd weaviate-secure-lab
+cd Training-Module-Securely-Install-Configure-And-Test-Weviate
 ```
 
 All commands for the rest of this tutorial must be run from inside this folder.
@@ -201,4 +201,5 @@ From this point forward:
 If you close your terminal later, make sure to return to this folder before continuing.
 
 ---
+
 Next: [Install Weaviate (Docker Compose)](04-compose-install.md)
