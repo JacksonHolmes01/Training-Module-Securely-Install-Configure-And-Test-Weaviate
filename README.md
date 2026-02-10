@@ -58,7 +58,7 @@ Follow the documentation pages **in order**. Each page builds on the previous on
 
 ### 👉 Start here:
 
-1. [Overview](docs/00-overview.md)
+1. [README](weviate-secure-lab/docs/README.md)
 
 Do not skip validation steps — they are part of the learning.
 
