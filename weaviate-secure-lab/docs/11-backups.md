@@ -204,4 +204,4 @@ Check:
 
 ---
 
-Next: [Stop / Start / Reset](10-stop-start-reset.md)
+Next: [Conclusion](https://github.com/JacksonHolmes01/Training-Module-Securely-Install-Configure-And-Test-Weviate/blob/a490677e70e2bbdd332a83d5f3af2a3725d779b4/weaviate-secure-lab/docs/11-Conclusion-.md)
