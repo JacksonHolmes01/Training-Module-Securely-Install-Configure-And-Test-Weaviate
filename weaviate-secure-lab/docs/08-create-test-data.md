@@ -294,4 +294,4 @@ This gives you a working dataset that you can now back up in the next lesson.
 
 ---
 
-Next: weaviate-secure-lab/docs/09-Download-Data.md
+Next: [Download Export Data](https://github.com/JacksonHolmes01/Training-Module-Securely-Install-Configure-And-Test-Weviate/blob/597be034bee7be13f868c6f529c4452dd42e9624/weaviate-secure-lab/docs/09-Download-Export-Data.md)
