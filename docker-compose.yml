@@ -29,7 +29,7 @@ services:
 
       AUTHORIZATION_RBAC_ENABLED: "true"
       AUTHORIZATION_RBAC_ROOT_USERS: "admin-user"
-
+      AUTHENTICATION_DB_USERS_ENABLED: "true"
       ENABLE_MODULES: "backup-filesystem"
       BACKUP_FILESYSTEM_PATH: "/tmp/backups"
 
