@@ -28,7 +28,7 @@ It is written for beginners and assumes no prior experience with Weaviate, Docke
 7. [Authentication (API Keys)](docs/06-authentication.md)
 8. [Authorization (RBAC)](docs/07-authorization-rbac.md)
 9. [Create Test Data](docs/08-create-test-data.md)
-10. [Backups (Practice)](docs/09-backups.md)
+10. [Download Data](https://github.com/JacksonHolmes01/Training-Module-Securely-Install-Configure-And-Test-Weviate/blob/139d16f10644b9e17108c2755994327727b1f80a/weaviate-secure-lab/docs/09-Download-Data.md)
 11. [Stop / Start / Reset](docs/10-stop-start-reset.md)
 12. [Final Checklist & Quiz](docs/11-checklist-and-quiz.md)
 
